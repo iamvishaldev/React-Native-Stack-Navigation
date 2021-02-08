@@ -19,16 +19,16 @@ export default function App() {
 
 const HomeScreen = ()=>{
   return(
-    <View style={{fontSize:20,flex:1,alignItems:"center",justifyContent:"center"}}>
-      <Text>Home Screen</Text>
+    <View style={{flex:1,alignItems:"center",justifyContent:"center"}}>
+      <Text style={{fontSize:50}}>Home Screen</Text>
     </View>
   )
 }
 
 const SettingScreen = ()=>{
   return(
-    <View style={{fontSize:20,flex:1,alignItems:"center",justifyContent:"center"}}>
-      <Text>Setting Screen</Text>
+    <View style={{flex:1,alignItems:"center",justifyContent:"center"}}>
+      <Text style={{fontSize:50}}>Setting Screen</Text>
     </View>
   )
 }
